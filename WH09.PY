@@ -1,0 +1,15 @@
+
+nam = str(input())
+age =  int(input())
+nationalid = int(input())
+nam1 = str(input())
+age1 =  int(input())
+nationalid1 = int(input())
+
+print("-----------------------------------")
+print(f"| name     | age     | nationalid |")
+print("-----------------------------------")
+print(f"| {nam: >3}      | {age: >2}      | {nationalid: <11}|")
+print("-----------------------------------")
+print(f"| {nam1: >3}     | {age1: >2}      | {nationalid1: <11}|")
+print("-----------------------------------")
